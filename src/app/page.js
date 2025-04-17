@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/LandingPage/Navbar';
 import Hero from '../components/LandingPage/Hero';
-import Services from '../components/LandingPage/Services';
 import Aboutus from '../components/LandingPage/Aboutus';
 import TrustedPartners from '../components/LandingPage/TrustedPartners';
 import CoreValuesSection from '../components/LandingPage/CoreValuesSection';
@@ -15,7 +14,6 @@ export default function Home() {
     <div className="bg-black min-h-screen">
       <Navbar />
       <Hero />
-      <Services />
       <Aboutus />
       <TrustedPartners/>
       <CoreValuesSection />
